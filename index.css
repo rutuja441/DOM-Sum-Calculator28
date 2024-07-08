@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+       overflow: hidden;
+  
+}
+
+#card{
+    height: 70vh;
+    width: 30vw;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+
+}
+#card h3{
+    font-size: 2vw;
+}
+
+#card input{
+    height: 7vh;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    background-color: rgba(64, 66, 69, 0.231);
+    border-radius: 4px;
+   padding: 0px 15px;
+   color:rgb(228, 217, 217);
+   font-size: 1.5rem;
+
+}
+#card input:hover{
+    border:2px solid white;
+    border-radius: 6px;
+
+}
+
+#btn{
+    font-size: 1.5vw;
+    font-weight: 800;
+    padding: 1vh 2vw;
+    background-color:#ca2448;
+    height:35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding-top:15px ;
+    text-align: end;
+    transition: background 0.3s, transform 0.3s;
+    cursor:pointer;
+}
+#btn:hover{
+    transform: translateX(10px);
+
+}
+@media screen and (max-width:480px) {
+    
+    #card{
+        width: 90vw;
+        height: 65vh;
+    }
+    
+    #card h3{
+        font-size: 6.9vw;
+    }
+
+
+     
+#card input{
+    font-size: 5.3vw;
+}
+
+#btn{
+    font-size: 5.5vw;
+}
+
+}
+
+@media screen and (min-width:481px) and (max-width:720px) {
+      
+    #card{
+        width: 50vw;
+        height: 75vh;
+    }
+    
+    #card h3{
+        font-size: 4.9vw;
+    }
+     
+#card input{
+    font-size: 3.3vw;
+}
+
+#btn{
+    font-size: 3.5vw;
+}
+
+}
+
+
+
+
+@media screen and (min-width:721px) and (max-width:1030px) {
+      
+    #card{
+        width: 35vw;
+        height: 75vh;
+    }
+    
+    #card h3{
+        font-size: 3.3vw;
+    }
+     
+#card input{
+    font-size: 2.3vw;
+}
+
+#btn{
+    font-size: 2.5vw;
+}
+
+}
